@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!----custom css file---->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!---header section starts--->
+    <header class="header">
+        <section class="flex">
+            <a href="/" class="logo">METRO</a>
+        <nav class="navbar">
+            <a href="/">home</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">menu</a>
+            <a href="orders.html">orders</a>
+            <a href="contact.html">contact</a>
+        </nav>
+        <div class="icons">
+            <a href="search.html"><i class="fas fa-search"></i></a>
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+            <div id="user-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+        <div class="profile">
+            <p class="name">Chandler Bing</p>
+            <div class="flex">
+                <a href="profile.html" class="btn">profile</a>
+                <a href="#" class="delete-btn">logout</a>
+            </div>
+            <p class="account"><a href="login.html">login</a> or <a href="register.html">register</a></p>
+        </div>
+        </section>
+    </header>
+    <!---header section ends--->
+
+    <!--search form section starts-->
+
+    <section class="search-form">
+        <form method="post" action="">
+            <input type="text" name="search_box" placeholder="search here.." class="box">
+            <button type="submit" name="search_btn" class="fas fa-search"></button>
+        </form>
+    </section>
+
+    <!--search form section ends-->
+
+    <section class="products" style="min-height: 100vh; padding-top:0;"></section>
+
+<!--footer section starts-->
+
+<footer class="footer">
+    <section class="grid">
+        <div class="box">
+            <img src="img/email-icon.png">
+            <h3>Our email</h3>
+            <a href="mailto:food7@gmail.com">food7@gmail.com</a>
+        </div>
+        <div class="box">
+            <img src="img/clock-icon.png">
+            <h3>Opening hours</h3>
+            <p>00:07am to 00:10pm</p>
+        </div>
+        <div class="box">
+            <img src="img/map-icon.png">
+            <h3>Our address</h3>
+            <a href="#">mumbai, india - 400104</a>
+        </div>
+        <div class="box">
+            <img src="img/phone-icon.png">
+            <h3>Our numbers</h3>
+            <a href="tel:1234567890">123-456-7890</a>
+        </div>
+    </section>
+    <div class="credit">created by <span>mr. web designer</span> | all rights reserved!</div>
+</footer>
+<!--footer section ends-->
+
+
+<div class="loader">
+    <img src="img/loader.gif" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+    <!--custom js file link-->
+    <script src="script.js"></script>
+</body>
+</html>
